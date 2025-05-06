@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>I Knew It!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(#ff9a9e, #fad0c4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: sans-serif;
+      text-align: center;
+      color: white;
+    }
+    h1 {
+      font-size: 3rem;
+      animation: popIn 1s ease;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    a {
+      margin-top: 2rem;
+      text-decoration: none;
+      background: white;
+      color: #ff6b6b;
+      padding: 12px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      background: #ffeaea;
+    }
+    @keyframes popIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1>I Knew You Love Me!</h1>
+  <p>You’re the best thing that ever happened to me.</p>
+  <a href="page3.html">Next</a>
+</body>
+</html>
